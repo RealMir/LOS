@@ -13,7 +13,7 @@
 2. git commit -m "<할 말>"
 3. git push origin master
 
-<추가 사항> git push ( github 웹에서 수정시 꼭 해야함 )
++ git push ( github 웹에서 수정시 꼭 해야함 )
 
 
 ### user 등록
