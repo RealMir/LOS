@@ -6,5 +6,6 @@ LOS에서 비슷한 상황을 가져와서 신속하게 문제를 해결하고�
 ## CERT
 
 ## 준비 과정
-* [git 준비](process/ready_git.md)<br>
-* [DB 준비]<br>
+* 1. [가상머신 준비]<br>
+* 2. [git 준비](process/ready_git.md)<br>
+* 3. [DB 준비]<br>
