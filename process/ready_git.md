@@ -17,8 +17,7 @@
 
 
 ### user 등록
-+ user name을 등록
-	git config --global user.name <사용자명>
++ user name을 등록<br> git config --global user.name <사용자명>
 
 + email을 등록
 	git config --global user.email <이메일주소>
