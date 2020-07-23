@@ -33,4 +33,7 @@ but. 싱글쿼터가 제한됨
 ```
 
 ### 다른 풀이
-?no=0 || 1 order by id asc
+1. ?no=0 || 1 order by id asc  
+   - 1이므로 admin도 있음
+   - => but. 안 보임
+   - => 정렬을 해서 위로 올림
