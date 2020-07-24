@@ -49,15 +49,28 @@ admin이 떠서 이 쿼리가 참인것을 확인함
 ```
 <참고> Python 코드 : [패스워드 길이](code/03_pwlength.py)
 ```
-해결 쿼리문: id='guest' and no=0 || id like 0x61646d696e
+길이를 알아냄 -> 각자리의 문자 확인
+=> SUBSTR()함수를 이용
+but. 일일히 글자 맞추는 것 번거로움
+=> 숫자를 이용해 크기 비교로 확인
+=> 문자를 숫자로 바꾸어 주는 ASCII() 함수 이용
+이 때, 대학교 2학년 1학기 때 배운 이진 탐색 알고리즘 적용
 ```
-### CERT <br> ?no=0 || id like 0x61646d696e
+```diff
+# 현재 쿼리문: where id='admin' and pw=''|| ascii(substr(pw,1,1))>1--+
+```
+<참고> Python 코드 : [패스워드 문자 탐색](code/03_pwlength.py)
+```
+해결 쿼리문: 
+```
+### CERT <br> ?pw=
 
 ### 느낀점
 ```diff
 + SQL 문자열 관련 함수를 새롭게 알게 되었다.
 + 1. SUBSTR(컬럼명 혹은 문자열, 시작위치, 골라낼 글자 수)
 + 2. LENGTH(컬럼명 혹은 문자열)
++ 3. ASCII(문자)
 
 + 파이썬의 urllib를 새롭게 배웠다.
 ```
