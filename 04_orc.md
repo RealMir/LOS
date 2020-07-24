@@ -47,3 +47,4 @@ admin이 떠서 이 쿼리가 참인것을 확인함
 ```diff
 # 현재 쿼리문: where id='admin' and pw=''|| length(pw)=8--+
 ```
+<Python> [패스워드 길이]()
