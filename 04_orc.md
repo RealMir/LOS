@@ -47,7 +47,7 @@ admin이 떠서 이 쿼리가 참인것을 확인함
 ```diff
 # 현재 쿼리문: where id='admin' and pw=''|| length(pw)=8--+
 ```
-<참고> Python 코드 : [패스워드 길이]()
+<참고> Python 코드 : [패스워드 길이](code/03_pwlength.py)
 ```
 해결 쿼리문: id='guest' and no=0 || id like 0x61646d696e
 ```
