@@ -9,11 +9,12 @@
 
 ## mysql 기본 명령어
 ### DataBase 관리 명령어
+```
 * show databases; : 현재 존재하는 DB 종류 출력
 * create database < DB 이름 >; : DB 생성
 * drop database < DB 이름 >; : DB 제거
 * use < DB 이름 >; : 관리할 DB 지정
-
+```
 ### Table 관리 명령어
 + create table < Table 이름 > (열 이름 타입 속성 ... ,  ... ); : DB내에 테이블 생성하기
 #### 속성
