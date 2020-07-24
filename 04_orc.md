@@ -63,8 +63,9 @@ but. 일일히 글자 맞추는 것 번거로움
 ```
 해결 쿼리문: 
 ```
-### CERT <br> ?pw=
-
+### CERT <br> Python 코드
+[패스워드 길이](code/03_pwlength.py)
+[패스워드 문자 탐색](code/03_pwlength.py)
 ### 느낀점
 ```diff
 + SQL 문자열 관련 함수를 새롭게 알게 되었다.
