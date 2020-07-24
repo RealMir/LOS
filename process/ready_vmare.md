@@ -2,6 +2,7 @@
 <img src="/photo/ubuntu.PNG" width="80%" height="80%" alt="ubuntu"></img><br>
 git에 파일을 올리고 관리하거나 los문제를 푸는데 도움이 되로록 DB를 이용할 수 있도록<br>
 Microsoft Store에서 제공하는 Ubuntu를 이용함
+<br>
 
 ### 초기 작업
 1. Microsoft Store에서 Ubuntu를 설치<br><주의> 이 때, 초기 설정이 필요함<br>
