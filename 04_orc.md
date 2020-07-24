@@ -1,4 +1,4 @@
-## Q4. orc _ 
+## Q4. orc _ 기본적인 비밀번호 획득 실험실
 <img src="/photo/prob_04.PNG" width="100%" height="100%" alt="problem"></img>
 
 ### 제한 문자: X <br> 문제 사항: admin의 패스워드를 찾아라.
