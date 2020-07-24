@@ -25,8 +25,8 @@ print(text_data)
 URL : 인터넷 공간에 존재하는 자원을 가리키기 위한 절대 주소
 URL에 사용할 수 있는 문자는 영문자, 숫자, 약간의 기호 뿐
 그 밖의 문자(한글·한자·특수문자 등)는 사용 불가
-=> URL에서 아스키 코드가 아닌 문자들을 퍼센트 인코딩(percent encoding)이라는 형식으로 바꾸기
-=> <strong>urllib.parse.quote()</strong> : 한글 텍스트를 퍼센트 인코딩된 문자열로 변환
+=> URL에서 아스키 코드가 아닌 문자들을 퍼센트 인코딩(percent encoding) 형식으로 바꿔야함
+=> urllib.parse.quote() : 한글 텍스트를 퍼센트 인코딩된 문자열로 변환
 ```
 
 <참고> [Python urllib 참고 자료](https://python.bakyeono.net/chapter-11-5.html)
