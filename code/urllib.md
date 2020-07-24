@@ -19,8 +19,8 @@ response = urllib.request.urlopen(url)
 text_data = response.read()                    
 
 print(text_data)
-```
-<br>
+```<br>
+
 헤더를 추가할 경우
 ```python
 import urllib.request
