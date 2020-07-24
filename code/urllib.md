@@ -20,6 +20,7 @@ text_data = response.read()
 
 print(text_data)
 ```
+<
 헤더를 추가할 경우
 ```python
 import urllib.request
