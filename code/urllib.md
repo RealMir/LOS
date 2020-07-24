@@ -7,8 +7,8 @@
 ```python
 import urllib.request
 
-url = "< 요청할 URL >"
-response = urllib.request.urlopen(url)
+url = "< 요청할 URL >"                       # 요청할 URL 변수 선언
+response = urllib.request.urlopen(url)      #
 text_data = response.read()
 
 print(text_data)
