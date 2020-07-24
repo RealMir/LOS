@@ -47,7 +47,7 @@ admin이 떠서 이 쿼리가 참인것을 확인함
 ```diff
 # 현재 쿼리문: where id='admin' and pw=''|| length(pw)=8--+
 ```
-<참고> Python 코드 : [패스워드 길이](code/03_pwlength.py)
+<참고> Python 코드 : [패스워드 길이 탐색](code/03_pwlength.py)
 ```
 길이를 알아냄 -> 각자리의 문자 확인
 => SUBSTR()함수를 이용
@@ -63,7 +63,8 @@ but. 일일히 글자 맞추는 것 번거로움
 ```
 해결 쿼리문: 
 ```
-### CERT <br> Python 코드 : [패스워드 길이](code/03_pwlength.py) / [패스워드 문자 탐색](code/03_pwlength.py)
+### CERT <br> Python 코드 : [패스워드 길이 탐색](code/03_pwlength.py) / [패스워드 문자 탐색](code/03_pwlength.py)
+
 ### 느낀점
 ```diff
 + SQL 문자열 관련 함수를 새롭게 알게 되었다.
