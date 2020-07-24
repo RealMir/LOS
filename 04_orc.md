@@ -58,5 +58,5 @@ admin이 떠서 이 쿼리가 참인것을 확인함
 + SQL 문자열 관련 함수를 새롭게 알게 되었다.
 + 파이썬의 urllib를 새롭게 배웠다.
 ```
-<참고> [SQL 문자열 관련 함수](https://rh-cp.tistory.com/60)
+<참고> [SQL 문자열 관련 함수](https://rh-cp.tistory.com/60)<br>
 <참고> [Python_Urllib]()
