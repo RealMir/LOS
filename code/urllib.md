@@ -10,11 +10,11 @@ import urllib.request
 # 요청할 URL 변수 선언
 url = "< 요청할 URL >" 
 
-"""
-urllib.request.urlopen() 함수는 웹 서버에 정보를 요청한 후,
-돌려받은 응답을 저장하여 ‘응답 객체(HTTPResponse)’를 반환한다.
-"""
-response = urllib.request.urlopen(url)         
+# urllib.request.urlopen() 함수는 웹 서버에 정보를 요청한 후,
+# 돌려받은 응답을 저장하여 ‘응답 객체(HTTPResponse)’를 반환
+response = urllib.request.urlopen(url)    
+
+# read() 메서드는 웹 서버가 응답한 데이터를 읽어들임
 text_data = response.read()                    
 
 print(text_data)
