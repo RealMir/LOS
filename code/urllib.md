@@ -4,6 +4,7 @@
 + <strong>urllib.parse</strong> : URL 해석·조작 기능을 담은 모듈
 
 ## urllib.request
+기본 문법
 ```python
 import urllib.request
 
@@ -19,6 +20,7 @@ text_data = response.read()
 
 print(text_data)
 ```
+헤더를 추가할 경우
 ```python
 import urllib.request
 
