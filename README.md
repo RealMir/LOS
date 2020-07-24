@@ -5,6 +5,6 @@ CETR 활동 시 SQL Injection에서 우회가 필요한 상황이 발생할 경�
 ## CERT
 
 ## 준비 과정
-* [1. 가상머신 준비]<br>
+* [1. 가상머신 준비](process/ready_vmare.md)<br>
 * [2. git 준비](process/ready_git.md)<br>
 * [3. DB 준비 및 명령어]<br>
