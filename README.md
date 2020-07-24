@@ -5,6 +5,9 @@ CETR 활동 시 SQL Injection에서 우회가 필요한 상황이 발생할 경�
 <br>
 
 ## CERT
+* 우회 기법<br>
+  [1. 스트링 우회 기법](03_goblin.md)<br>
+* 기본 문법
 <br>
 
 ## 준비 과정
