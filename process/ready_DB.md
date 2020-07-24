@@ -17,10 +17,16 @@
 ```
 ### Table 관리 명령어
 ```
-* create table < Table 이름 > (열 이름 타입 속성 ... ,  ... ); : DB내에 테이블 생성하기
+* create table < Table 이름 > (열 이름 타입 속성,  ... ); : DB내에 테이블 생성하기
 * drop table < Table 이름 >; : DB내에 테이블 삭제
 * show tables; :  DB내의 테이블들 확인
 * desc < 테이블 명 >; : 해당 테이블의 상세정보 확인
+```
+```
+속성
+auto_increment : 자동으로 1부터 숫자가 지정
+primary key : 중복이 불가능
+not null : 빈 값입력시 오류발생
 ```
 ### 데이터 관리 명령어
 ```
@@ -28,3 +34,4 @@
 * select * from < 테이블 명> where < 조건 > : 테이블 내 조건에 맞추어 데이터 검색
 * updata < 테이블 명 > set < 수정할 값 > where < 어디있는지 > : 테이블 수정
 * delete from < 테이블 명 > where < 어디있는지 > : 테이블 내용 삭제
+```
