@@ -30,8 +30,8 @@ not null : 빈 값입력시 오류발생
 ```
 ### 데이터 관리 명령어
 ```
-* insert into < 테이블 명 >( <열> ) value( <값> ) : 테이블에 데이터 추가
-* select * from < 테이블 명> where < 조건 > : 테이블 내 조건에 맞추어 데이터 검색
-* updata < 테이블 명 > set < 수정할 값 > where < 어디있는지 > : 테이블 수정
-* delete from < 테이블 명 > where < 어디있는지 > : 테이블 내용 삭제
+* insert into < 테이블 명 >( <열> ) value( <값> ); : 테이블에 데이터 추가
+* select * from < 테이블 명> where < 조건 >; : 테이블 내 조건에 맞추어 데이터 검색
+* updata < 테이블 명 > set < 수정할 값 > where < 어디있는지 >; : 테이블 수정
+* delete from < 테이블 명 > where < 어디있는지 >; : 테이블 내용 삭제
 ```
