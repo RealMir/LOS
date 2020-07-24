@@ -22,7 +22,6 @@ no - 회원번호 ( 식별자로 사용할 것 -> primary key )
 user_id - 아이디
 user_pw - 비밀번호
 email - 이메일
-
 속성
 auto_increment : 자동으로 1부터 숫자가 지정된다c
 primary key : 중복이 불가능하다
