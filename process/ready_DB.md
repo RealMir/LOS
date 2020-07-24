@@ -9,4 +9,4 @@
 
 ## mysql 기본 명령어
 + DataBase 관리 명령어 <br>
-	+show databases; : 현재 존재하는 DB 종류 출력
+	show databases; : 현재 존재하는 DB 종류 출력
