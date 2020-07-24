@@ -16,13 +16,9 @@
 * use < DB 이름 >; : 관리할 DB 지정
 ```
 ### Table 관리 명령어
-+ create table < Table 이름 > (열 이름 타입 속성 ... ,  ... ); : DB내에 테이블 생성하기
-#### 속성
 ```
-auto_increment : 자동으로 1부터 숫자가 지정됨
-primary key : 중복이 불가능
-not null : 빈 값입력시 오류 발생
+* create table < Table 이름 > (열 이름 타입 속성 ... ,  ... ); : DB내에 테이블 생성하기
+* drop table < Table 이름 >; : DB내에 테이블 삭제
+* show tables; :  DB내의 테이블들 확인
+* desc < 테이블 명 >; : 해당 테이블의 상세정보 확인
 ```
-+ drop table < Table 이름 >; : DB내에 테이블 삭제
-+ show tables; :  DB내의 테이블들 확인
-+ desc < 테이블 명 >; : 해당 테이블의 상세정보 확인
