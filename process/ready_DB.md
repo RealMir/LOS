@@ -6,3 +6,7 @@
 
 + mysql -u root -p : 접속 방법 <br>
 <주의> 초기에는 비밀번호 설정 안되어 있음 => 그냥 enter치면 접속 됨
+
+## mysql 기본 명령어
++ DataBase 관리 명령어 <br>
+	+show databases; : 현재 존재하는 DB 종류 출력
