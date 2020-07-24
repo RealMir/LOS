@@ -5,4 +5,4 @@
 <참고>[Ubuntu에 APM 구성하기](https://blog.lael.be/post/7264)<br>
 
 + mysql -u root -p : 접속 방법 <br>
-<주의> 초기에는 비밀번호 설정 안되어 있음<br> => 그냥 enter치면 접속 됨
+<주의> 초기에는 비밀번호 설정 안되어 있음 => 그냥 enter치면 접속 됨
