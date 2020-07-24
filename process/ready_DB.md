@@ -16,16 +16,11 @@
 
 ### Table 관리 명령어
 + create table < Table 이름 > (열 이름 타입 속성 ... ,  ... ); : DB내에 테이블 생성하기
-```
-열
-no - 회원번호 ( 식별자로 사용할 것 -> primary key )
-user_id - 아이디
-user_pw - 비밀번호
-email - 이메일
 속성
-auto_increment : 자동으로 1부터 숫자가 지정된다c
-primary key : 중복이 불가능하다
-not null : 빈 값입력시 오류발생
+```
+auto_increment : 자동으로 1부터 숫자가 지정됨
+primary key : 중복이 불가능
+not null : 빈 값입력시 오류 발생
 ```
 + drop table < Table 이름 >; : DB내에 테이블 삭제
 + show tables; :  DB내의 테이블들 확인
