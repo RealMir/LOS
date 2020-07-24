@@ -19,6 +19,21 @@ text_data = response.read()
 
 print(text_data)
 ```
+```python
+import urllib.request
+
+url = "< 요청할 URL >" 
+
+# url request 객체 생성
+req = urllib.request.Request(url)
+req.add_header("User-agent", user_agent) # 헤더추가 
+req.add_header("Cookie", "<쿠키 값>") # 쿠키 추가
+
+response = urllib.request.urlopen(req)    
+text_data = response.read()                    
+
+print(text_data)
+```
 
 ## urllib.parse
 ```
