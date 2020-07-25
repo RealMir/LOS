@@ -74,5 +74,4 @@ but. 일일히 글자 맞추는 것 번거로움
 
 + 파이썬의 urllib를 새롭게 배웠다.
 ```
-<br>
 <참고> [Python_Urllib ](code/urllib.md)
