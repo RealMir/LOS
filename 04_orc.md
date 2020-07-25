@@ -57,13 +57,13 @@ but. 일일히 글자 맞추는 것 번거로움
 이 때, 대학교 2학년 1학기 때 배운 이진 탐색 알고리즘 적용
 ```
 ```diff
-# 현재 쿼리문: where id='admin' and pw=''|| ascii(substr(pw,1,1))>1--+
+# 현재 쿼리문: where id='admin' and pw=''|| ascii(substr(pw,1,1))=97--+
 ```
-<참고> Python 코드 : [패스워드 문자 탐색](code/03_pwlength.py)
+<참고> Python 코드 : [패스워드 문자 탐색](code/03_pw.py)
 ```
 해결 쿼리문: 
 ```
-### CERT <br> Python 코드 : [패스워드 길이 탐색](code/03_pwlength.py) / [패스워드 문자 탐색](code/03_pwlength.py)
+### CERT <br> Python 코드 : [패스워드 길이 탐색](code/03_pwlength.py) / [패스워드 문자 탐색](code/03_pw.py)
 
 ### 느낀점
 ```diff
