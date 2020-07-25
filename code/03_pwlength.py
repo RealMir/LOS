@@ -2,7 +2,7 @@ import urllib.request
 from urllib.parse import quote
 
 # pw 길이 1~10 사이로 예측해서 반복시킴
-for i in range(1, 10, 1):
+for i in range(1, 11, 1):
 
     # pw의 길이 수를 바꿔주면서 새로운 url을 만듦
     url = "https://los.rubiya.kr/chall/orc_60e5b360f95c1f9688e4f3a86c5dd494.php?pw="
