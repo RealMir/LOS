@@ -10,7 +10,7 @@
 => || 이용
 ```
 ```diff
-현재 쿼리문: where id='guest' and pw=''||id='admin'--+'
+# 현재 쿼리문: where id='guest' and pw=''||id='admin'--+'
 ```
 ```
 but. +는 공백문자로 제한됨
