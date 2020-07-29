@@ -11,6 +11,7 @@ CETR 활동 시 SQL Injection에서 우회가 필요한 상황이 발생할 경�
 * 기본 문법<br>
   [1. 다양한 주석 모음](02_cobolt.md)<br>
   [2. 비밀번호 획득 ](04_orc.md)<br>
+  [3. OR/AND 우회](05_darkelf.md)<br>
 
 ## 준비 과정
 * [1. 가상머신 준비](process/ready_vmare.md)<br>
