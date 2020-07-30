@@ -1,4 +1,4 @@
-## Q7. orge _ 
+## Q7. orge _ Q4 + Q6
 <img src="/photo/prob_07.PNG" width="100%" height="100%" alt="problem"></img>
 
 ### 제한 문자: or / and <br> 문제 사항: admin의 패스워드를 찾아라.
