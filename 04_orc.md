@@ -61,7 +61,7 @@ but. 일일히 글자 맞추는 것 번거로움
 ```
 <참고> Python 코드 : [패스워드 문자 탐색](code/03_pw.py)
 ```
-해결 쿼리문: 
+해결 쿼리문: where id='admin' and pw='095a9852'
 ```
 ### CERT <br> Python 코드 : [패스워드 길이 탐색](code/03_pwlength.py) / [패스워드 문자 탐색](code/03_pw.py)
 
