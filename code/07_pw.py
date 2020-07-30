@@ -4,7 +4,7 @@ from urllib.parse import quote
 # 답의 저장할 배열 선언
 b = []   
 
-# 패스워드의 길이가 8이므로 크게 이중 for문을 묶음
+# 패스워드의 길이가 8이므로 크게 이중 for문을 
 # 48 ~ 122 까지 아스키 코드 값을 반복함
 for j in range(1, 9, 1):
             for i in range(48,123):
