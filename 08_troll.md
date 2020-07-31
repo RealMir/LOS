@@ -1,7 +1,7 @@
 ## Q8. troll _ php 취약점 ( preg_match )
 <img src="/photo/prob_08.PNG" width="100%" height="100%" alt="problem"></img>
 
-### 제한 문자: ' , admin(소문자) <br> 문제 사항: 쿼리에 id=admin을 만들어내라.
+### 제한 문자: ' / admin(소문자) <br> 문제 사항: 쿼리에 id=admin을 만들어내라.
 ### 해결책
 
 ```
