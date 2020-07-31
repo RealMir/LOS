@@ -16,6 +16,7 @@ if(preg_match("/admin/", $_GET[id])) exit("HeHe");
 php의 preg_match함수에 /admin/i라고 되어 있지 않음
 => 대문자로 ADMIN 적을 시 막지 못함
 ```
+```
 해결 쿼리문: where id='ADMIN'
 ```
 ### CERT <br> ?id=ADMIN
