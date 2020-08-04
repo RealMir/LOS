@@ -1,4 +1,4 @@
-## Q10. skeleton _ order by 활용
+## Q10. skeleton _ ORDER BY 활용
 <img src="/photo/prob_10.PNG" width="100%" height="100%" alt="problem"></img>
 
 ### 제한 문자: X <br> 문제 사항: id=admin을 만들어내라.
