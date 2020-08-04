@@ -34,7 +34,8 @@ but. 1 뒤의 내용 문제 일으킴
 ```diff
 + ORDER BY 함수에 대해 배웠다.
 + 기본 구조: ORDER BY column_name(조건) <속성>
-+ 속성: ASC( 오름차순 ) / DESC ( 내림차순 )
++ 속성: ASC( 오름차순 )
++       DESC ( 내림차순 )
 + 조건: id!='특정값' asc : 특정값 최상단 정렬
 +       id ='특정값' desc : 특정값 최하단 정렬  
 ```
