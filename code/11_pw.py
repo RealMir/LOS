@@ -17,7 +17,7 @@ for j in range(1, 9, 1):
                         
                         # 쿠키 값 추가 해줌
                         req = urllib.request.Request(new_url)
-                        req.add_header("Cookie", "< 자신의 쿠키값 >")
+                        req.add_header("Cookie", "<자신의 쿠키값>")
                         response = urllib.request.urlopen(req)
                         
                         # 참일 경우 배열에 추가하고 반복문 중지
