@@ -1,4 +1,4 @@
-## Q11. golem _ 비밀번호 획득 _ 1
+## Q11. golem _ 
 <img src="/photo/prob_11.PNG" width="100%" height="100%" alt="problem"></img>
 
 ### 제한 문자: OR / AND / SUBSTR( / = <br> 문제 사항: admin의 패스워드를 찾아라.
