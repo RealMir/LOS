@@ -57,15 +57,16 @@ for j in range(1, 9, 1):
                                                             password.append(str(chr(l+1)))
                                                             break
                                                             
-                                                            # admin 패스워드 < guest 패스워드인 경우와
-                                                            # admin 패스워드 > guest 패스워드인 경우가
-                                                            # 모두 실패했을 경우인 guest 비밀번호 = admin 비밀번호 상황 체크 
-                                                            elif str(response2.read()).find("Hello guest") != -1:
-                                                                        location2.append(str(chr(l+1))) 
-                                                                        location2.append(j)   
-                                                                        all_location.append(location2)
-                                                                        password.append(str(chr(l+1)))
-                                                                        break   
+                                                # admin 패스워드 < guest 패스워드인 경우와
+                                                # admin 패스워드 > guest 패스워드인 경우가
+                                                # 모두 실패했을 경우인 guest 비밀번호 = admin 비밀번호 상황 체크 
+                                                elif str(response2.read()).find("Hello guest") != -1:
+                                                            location2.append(str(chr(l+1))) 
+                                                            location2.append(j)   
+                                                            all_location.append(location2)
+                                                            password.append(str(chr(l+1)))
+                                                            break   
+                                                            
                         else:
                                     print("{}".format(i))
       
