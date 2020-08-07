@@ -1,4 +1,4 @@
-## Q12. darkknight _ 
+## Q12. darkknight _ 비밀번호 획득 우회(1)
 <img src="/photo/prob_12.PNG" width="100%" height="100%" alt="problem"></img>
 
 ### 제한 문자: ' / SUBSTR / ASCII / = <br> 문제 사항: admin의 패스워드를 찾아라.
