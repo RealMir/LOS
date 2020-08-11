@@ -19,7 +19,7 @@ but. +는 공백문자로 제한됨
 ```
 해결 쿼리문: where id='guest' and pw=''||id='admin'--
 ```
-### CERT <br> ?pw=''||id='admin'--%0b'
+### CERT <br> ?pw='||id='admin'--%0b'
 
 ### 느낀점
 ```diff
