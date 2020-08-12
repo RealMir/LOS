@@ -1,4 +1,4 @@
-## 01.gremlim _ 기본적인 SQL 실험
+## 01.gremlin _ 기본적인 SQL 실험
 <img src="/photo/prob_01.PNG" width="100%" height="100%" alt="problem"></img>
 
 ### 제한 문자: X <br> 문제 사항: 쿼리문 참으로 만들기
