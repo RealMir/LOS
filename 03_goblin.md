@@ -1,4 +1,4 @@
-## Q3. cobolt _ 스트링 우회 기법
+## Q3. goblin _ 스트링 우회 기법
 <img src="/photo/prob_03.PNG" width="100%" height="100%" alt="problem"></img>
 
 ### 제한 문자: ' / " / ` <br> 문제 사항: 쿼리에 id=admin을 만들어내라.
