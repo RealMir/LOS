@@ -9,6 +9,7 @@ CETR 활동 시 SQL Injection에서 우회가 필요한 상황이 발생할 경�
   [2. 공백 우회 기법 (ASCII)](05_wolfman.md)<br>
   [3. OR/AND 우회](06_darkelf.md)<br>
   [4. 비밀번호 획득 우회(1)](12_darkknight.md)<br>
+  [5. 싱글쿼터 우회](16_succubus.md)<br>
     
 * 기본 문법<br>
   [1. 다양한 주석 모음](02_cobolt.md)<br>
