@@ -16,6 +16,7 @@ CETR 활동 시 SQL Injection에서 우회가 필요한 상황이 발생할 경�
   [2. 비밀번호 획득 ](04_orc.md)<br>
   [3. ORDER BY 활용 ](10_skeleton.md)<br>
   [4. LIKE 활용 ](15_assassin.md)<br>
+  [5. 자동형변환](18_nightmare.md)<br>
 
 * php 취약점<br>
   [1. php 취약점 ( preg_match )](08_troll.md)<br>
