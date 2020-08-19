@@ -1,7 +1,7 @@
 ## Q19. xavis _ 비밀번호 획득 우회(문자)
 <img src="/photo/prob_19.PNG" width="100%" height="100%" alt="problem"></img>
 
-### 제한 문자: regex / - <br> 문제 사항: admin의 패스워드 찾기
+### 제한 문자: regex / like <br> 문제 사항: admin의 패스워드 찾기
 ### 해결책
 
 ```
