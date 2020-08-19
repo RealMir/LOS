@@ -47,10 +47,10 @@ ascii 대신 ord 사용 가능
 ### 느낀점
 ```diff
 + 1. ascii(), ord() 함수를 자세히 배울 수 있었다.
-+ 	 ascii(): 2byte 이상 값 반환 X
-+ 	 ord(): 2byte 이상 값 반환
++ ascii(): 2byte 이상 값 반환 X
++ ord(): 2byte 이상 값 반환
 
 + 2. DB에 저장된 것의 바이트 값에 대해 새롭게 배웠다.
-+ 	 문자, 숫자: 1byte 차지
-+ 	 한글: 3byte(utf - 8), 4byte(utf)
++ 문자, 숫자: 1byte 차지
++ 한글: 3byte(utf - 8), 4byte(utf)
 ```
