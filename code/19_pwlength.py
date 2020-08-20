@@ -15,7 +15,7 @@ def pwlength(count):
                 # los에 로그인을 해야되서 urllib.request의 객체를 생성해 헤더를 추가해줌 
                 # 위에서 만든 새로운 url을 요청함
                 req = urllib.request.Request(new_url)
-                req.add_header("Cookie", "_ga=GA1.2.893628562.1594020923; PHPSESSID=51dqbgqmnpjh6rvbou6e5j77pr")
+                req.add_header("Cookie", "<자신의 쿠키값>")
                
                 # 요청한 정보를 돌려받은 응답 저장
                 response = urllib.request.urlopen(req)
