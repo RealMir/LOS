@@ -1,3 +1,6 @@
+# made by TOR
+# pwlength.py version 1.1
+
 import urllib.request
 from urllib.parse import quote
 
