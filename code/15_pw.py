@@ -1,6 +1,6 @@
 
 # made by TOR
-# pw.py version 2.1
+# pw.py version 2.6 - like용
 
 import urllib.request
 from urllib.parse import quote
