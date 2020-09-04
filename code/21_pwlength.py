@@ -25,7 +25,6 @@ def pwlength(count):
                 # 서버가 응답한 데이터를 받아들임, 그 후 조건 실행
                 # Subquery returns more than 1 row 가 포함되지 않을 경우 참인 조건
                 # <참고> 포함 : != -1 / 포함X : == -1 
-
                 if str(response.read()).find("Subquery returns more than 1 row") == -1:
                         print("Find password length : {}".format(i))
                         return count
