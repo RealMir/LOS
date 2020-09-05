@@ -24,6 +24,9 @@ CETR 활동 시 SQL Injection에서 우회가 필요한 상황이 발생할 경�
   [1. php 취약점 ( preg_match )](08_troll.md)<br>
   [2. php 취약점 ( str_replace )](09_vampire.md)<br>
 
+* Error Based Blind SQL<br>
+  [1. Error Based](21_iron_golem.md)<br>
+
 ## 준비 과정
 * [1. 가상머신 준비](process/ready_vmare.md)<br>
 * [2. git 준비](process/ready_git.md)<br>
