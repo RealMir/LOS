@@ -41,4 +41,4 @@ for j in range(1, 29, 1):
       
 print("Finish")
 print(all_location)
-print("password:", email)
+print("eamil:", email)
