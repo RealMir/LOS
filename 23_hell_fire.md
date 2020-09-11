@@ -1,4 +1,4 @@
-## Q23.hell_fire _ order by 활용 (2)
+## Q23.hell_fire _ ORDER BY 활용(2)
 <img src="/photo/prob_23.PNG" width="100%" height="100%" alt="problem"></img>
 
 ### 제한 문자: proc / union <br> 문제 사항: admin의 이메일을 찾아라.
